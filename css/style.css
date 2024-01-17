@@ -78,7 +78,7 @@ section .content{
     height: 100%;
     justify-content: space-around;
     align-items: center;
-}
+} 
 
 .content .main-content{
     color: white;
