@@ -131,3 +131,11 @@ section .content{
     box-shadow: 0 0 30px #f74f10;
     background: linear-gradient(to bottom right, #8a3313, #f74f10 40%);
 }
+
+.content .image img{
+    min-width: 350px;
+    width: 100%;
+    margin-right: 100px;
+    transform: rotate(40deg);
+    filter: drop-shadow(-10px -10px 200px #f74f10);
+}
