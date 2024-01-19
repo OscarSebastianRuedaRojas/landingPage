@@ -34,7 +34,7 @@ ul li a{
     padding: 0 16px;
 }
 
-p{
+.letra{
     color: white;
     margin: 0;
 }
@@ -86,14 +86,14 @@ img{
     left: 0;
     bottom: -4px;
     width: 0;
-    background-color: #f74f10;
+    background-color: #38F725;
     height: 3.5px;
     transition: 0.3s linear;
 }
 
 .links a:hover::before,
 .links a:hover{
-    color: #f74f10;
+    color: #38F725;
     width: 100%;
 } 
 
@@ -125,7 +125,7 @@ section .content{
 }
 
 .main-content h2{
-    color: #f74f10;
+    color: #38F725;
     font-size: clamp(2rem, 1rem + 5vw, 3.5rem);
 }
 
@@ -152,7 +152,7 @@ section .content{
     border: none;
     outline: none;
     border-radius: 10px;
-    background: linear-gradient(to bottom right,#f74f10 40%, #8a3313);
+    background: linear-gradient(to bottom right,#38F725 40%, #00FA55);
     color: white;
     font-weight:700;
     padding: 0 2px;
@@ -161,8 +161,8 @@ section .content{
 }
 
 .order button:hover{
-    box-shadow: 0 0 30px #f74f10;
-    background: linear-gradient(to bottom right, #8a3313, #f74f10 40%);
+    box-shadow: 0 0 30px #38F725;
+    background: linear-gradient(to bottom right, #00FA55, #38F725 40%);
 }
 .content .image img{
     display: flex;
@@ -171,7 +171,7 @@ section .content{
     width: 70%;
     margin-left: 50px;
     transform: rotate(40deg)translateX(900px);
-    filter: drop-shadow(-10px -10px 200px #f74f10);
+    filter: drop-shadow(-10px -10px 200px #38F725);
 }
 
 
