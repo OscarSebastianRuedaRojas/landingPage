@@ -46,6 +46,7 @@ ul li a{
 .logo{
     display: flex;
     align-items: center;
+    transform: translateX(125px);
 }
 .links{
     position: fixed;
@@ -205,5 +206,8 @@ section .content{
     }
     ul {
         flex-direction: row;
+    }
+    .logo{
+        transform: translateX(0px);
     }
 }
